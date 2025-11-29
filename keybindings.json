@@ -47,5 +47,10 @@
         "key": "ctrl+n",
         "command": "list.focusDown",
         "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.scm' || activeViewlet == 'workbench.view.explorer'"
     }
 ]

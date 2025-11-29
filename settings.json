@@ -23,6 +23,24 @@
         {
             "before": [
                 "<space>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "b"
+            ],
+            "commands": [
+                "workbench.files.action.focusOpenEditorsView"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
                 "g"
             ],
             "commands": [
@@ -65,6 +83,24 @@
             ],
             "commands": [
                 "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "b"
+            ],
+            "commands": [
+                "workbench.files.action.focusOpenEditorsView"
             ]
         },
         {
