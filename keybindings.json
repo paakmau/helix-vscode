@@ -21,6 +21,11 @@
         }
     },
     {
+        "key": "ctrl+c",
+        "command": "editor.action.commentLine",
+        "when": "inputFocus"
+    },
+    {
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpen"
     },
@@ -52,5 +57,10 @@
         "key": "escape",
         "command": "workbench.action.focusFirstEditorGroup",
         "when": "sideBarFocus"
+    },
+    {
+        "key": "enter",
+        "command": "search.action.focusSearchList",
+        "when": "searchInputBoxFocus"
     }
 ]

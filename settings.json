@@ -52,6 +52,15 @@
         {
             "before": [
                 "<space>",
+                "/"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
                 "?"
             ],
             "commands": [
@@ -74,6 +83,26 @@
             ],
             "commands": [
                 "editor.action.referenceSearch.trigger"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.editor.previousChange",
+                "workbench.action.compareEditor.previousChange"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.editor.nextChange",
+                "workbench.action.compareEditor.nextChange"
             ]
         }
     ],
@@ -117,6 +146,15 @@
         {
             "before": [
                 "<space>",
+                "/"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
                 "?"
             ],
             "commands": [
@@ -139,6 +177,26 @@
             ],
             "commands": [
                 "editor.action.referenceSearch.trigger"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.editor.previousChange",
+                "workbench.action.compareEditor.previousChange"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.editor.nextChange",
+                "workbench.action.compareEditor.nextChange"
             ]
         }
     ]
