@@ -3,6 +3,10 @@
 " Movement
 noremap B <Esc>maBmbviWvEviWovhmc`bhmblvh]`o
 
+" Search
+noremap N gNNNvgn
+vnoremap * y/<C-R>"<CR>N
+
 " Space mode
 noremap <Space>k gh
 
