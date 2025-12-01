@@ -10,6 +10,7 @@
     ],
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.vscodevimrc",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
