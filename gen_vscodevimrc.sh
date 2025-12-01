@@ -11,6 +11,8 @@ sed -i "/noremap gn/s/^/\" /" "${gen_path}"
 sed -i "/noremap gp/s/^/\" /" "${gen_path}"
 sed -i "/noremap = <nop>/s/^/\" /" "${gen_path}"
 sed -i "/noremap N /s/^/\" /" "${gen_path}"
+sed -i "/noremap < <nop>/s/^/\" /" "${gen_path}"
+sed -i "/noremap > <nop>/s/^/\" /" "${gen_path}"
 
 cat "${script_dir}/common.vim" >> "${gen_path}"
 cat "${script_dir}/vscode.vim" >> "${gen_path}"
