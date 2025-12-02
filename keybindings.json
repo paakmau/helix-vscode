@@ -3,7 +3,7 @@
     {
         "key": "ctrl+c",
         "command": "editor.action.commentLine",
-        "when": "inputFocus"
+        "when": "editorFocus"
     },
     {
         "key": "ctrl+p",
@@ -53,5 +53,4 @@
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
     }
-
 ]

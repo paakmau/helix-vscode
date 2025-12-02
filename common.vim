@@ -5,5 +5,5 @@ noremap zz zz
 noremap zc zz
 noremap zt zt
 noremap zb zb
-noremap zj <C-e>
-noremap zk <C-y>
+noremap zj <C-y>
+noremap zk <C-e>
