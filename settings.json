@@ -4,15 +4,36 @@
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "compact",
     "workbench.colorTheme": "Kimbie Dark",
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#da9226"
+    },
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.quickOpen",
         "-workbench.action.terminal.focusFind"
     ],
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "todohighlight.keywordsPattern": "TODO\\(.*\\)",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "todohighlight.keywordsPattern": "TODO(\\(.*?\\))?:",
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "$HOME/.vscodevimrc",
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "U"
+            ],
+            "commands": [
+                "redo"
+            ]
+        },
         {
             "before": [
                 "<space>",
@@ -46,7 +67,11 @@
                 "g"
             ],
             "commands": [
-                "workbench.scm.focus"
+                "workbench.scm.focus",
+                "list.focusFirst",
+                "list.focusDown",
+                "list.focusDown",
+                "list.focusDown"
             ]
         },
         {
@@ -109,6 +134,22 @@
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "U"
+            ],
+            "commands": [
+                "redo"
+            ]
+        },
+        {
+            "before": [
                 "<space>",
                 "f"
             ],
@@ -140,7 +181,11 @@
                 "g"
             ],
             "commands": [
-                "workbench.scm.focus"
+                "workbench.scm.focus",
+                "list.focusFirst",
+                "list.focusDown",
+                "list.focusDown",
+                "list.focusDown"
             ]
         },
         {

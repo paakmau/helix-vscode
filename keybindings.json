@@ -3,7 +3,7 @@
     {
         "key": "alt+u",
         "command": "vim.remap",
-        "when": "inputFocus",
+        "when": "editorFocus",
         "args": {
             "after": [
                 "<C-o>"
@@ -13,7 +13,7 @@
     {
         "key": "shift+alt+u",
         "command": "vim.remap",
-        "when": "inputFocus",
+        "when": "editorFocus",
         "args": {
             "after": [
                 "<C-i>"
@@ -23,7 +23,7 @@
     {
         "key": "ctrl+c",
         "command": "editor.action.commentLine",
-        "when": "inputFocus"
+        "when": "editorFocus"
     },
     {
         "key": "ctrl+p",
@@ -73,5 +73,4 @@
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
     }
-
 ]
