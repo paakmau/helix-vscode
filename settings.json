@@ -2,7 +2,11 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.renderWhitespace": "all",
     "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSurroundingLines": 5,
     "window.menuBarVisibility": "compact",
+    "workbench.editor.tabCloseButton": "off",
     "workbench.colorTheme": "Kimbie Dark",
     "workbench.colorCustomizations": {
         "tab.activeBorder": "#da9226"
@@ -12,8 +16,6 @@
         "-workbench.action.terminal.focusFind"
     ],
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "editor.smoothScrolling": true,
-    "editor.cursorSmoothCaretAnimation": "on",
     "todohighlight.keywordsPattern": "TODO(\\(.*?\\))?:",
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "$HOME/.vscodevimrc",
@@ -72,6 +74,24 @@
                 "list.focusDown",
                 "list.focusDown",
                 "list.focusDown"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "S"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
             ]
         },
         {
@@ -186,6 +206,24 @@
                 "list.focusDown",
                 "list.focusDown",
                 "list.focusDown"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "S"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
             ]
         },
         {
