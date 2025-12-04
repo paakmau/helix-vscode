@@ -16,6 +16,7 @@
         "-workbench.action.terminal.focusFind"
     ],
     "todohighlight.keywordsPattern": "TODO(\\(.*?\\))?:",
+    "vim.whichwrap": "b,s,h,l",
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "$HOME/.vscodevimrc",
     "vim.normalModeKeyBindingsNonRecursive": [
