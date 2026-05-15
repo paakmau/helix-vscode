@@ -35,7 +35,7 @@
     },
     {
         "key": "escape",
-        "command": "workbench.action.focusFirstEditorGroup",
+        "command": "workbench.action.closeSidebar",
         "when": "sideBarFocus"
     },
     {
