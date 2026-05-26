@@ -1,5 +1,24 @@
-#!/usr/bin/env bash
+# README
 
+```sh
+git clone https://github.com/paakmau/helix-vscode.git
+cd helix-vscode
+
+git submodule update --init --recursive
+```
+
+生成 `.vimrc`：
+
+```sh
+script_dir="$(cd "$(dirname "$0")" && pwd)"
+
+echo "source ${script_dir}/helix.vim/helix.vim" > "${HOME}/.vimrc"
+echo "source ${script_dir}/common.vim" >> "${HOME}/.vimrc"
+```
+
+生成 `.vscodevimrc`：
+
+```sh
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 gen_path="${HOME}/.vscodevimrc"
 
@@ -22,3 +41,4 @@ sed -i "/noremap B /s/^/\" /" "${gen_path}"
 
 cat "${script_dir}/common.vim" >> "${gen_path}"
 cat "${script_dir}/vscode.vim" >> "${gen_path}"
+```
